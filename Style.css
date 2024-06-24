@@ -17,7 +17,7 @@
     /* background-color: #212e3f; */
     padding-left: 5%;
     padding-right: 5%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));   
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));    */
     width: 100vw; 
     display: flex;
     align-items: center; 
@@ -90,7 +90,7 @@
         min-height: fit-content;
         width: 100vw;
         background-color: #0d0d0d;
-        background-image: url(/Images/dark-mountain.jpg);
+        background-image: url("Images/dark-mountain.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -307,7 +307,7 @@
         min-height: fit-content;
         width: 100vw;
         background-color: #0d0d0d;
-        background-image: url(/Images/dark-mountain.jpg);
+        background-image: url("Images/dark-mountain.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -472,7 +472,8 @@
 
     .navbar-container{
         height: 5rem;
-        /* background-color: #212e3f; */
+        background-color: transparent;
+        
         padding-left: 5%;
         padding-right: 5%;
         
@@ -546,7 +547,7 @@
             min-height: 100vh;
             width: 100vw;
             background-color: #0d0d0d;
-            background-image: url(/Images/dark-mountain.jpg);
+            background-image: url("Images/dark-mountain.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -861,7 +862,7 @@
             min-height: 100vh;
             width: 100vw;
             background-color: #0d0d0d;
-            background-image: url(/Images/dark-mountain.jpg);
+            background-image: url("Images/dark-mountain.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
