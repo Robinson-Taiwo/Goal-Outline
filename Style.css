@@ -87,10 +87,10 @@
     
     .hero-section{
         
-        min-height: 100vh;
+        min-height: fit-content;
         width: 100vw;
         background-color: #0d0d0d;
-        background-image: url(dark-mountain.jpg);
+        background-image: url(/Images/dark-mountain.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -795,7 +795,6 @@
         display: flex;
         align-items: center; 
         justify-content: space-between;
-        background: transparent;
         }
         
         
