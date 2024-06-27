@@ -349,7 +349,7 @@ position: relative;
     
     
             .timeline-middle-line{
-                height: 9rem;
+                height: 14rem;
                 width: 3px;
                 background-color: white;
             }
@@ -1053,7 +1053,7 @@ position: relative;
     padding-left: 5%;
     height: fit-content;
     border-top: 2px solid #000000; background-color:#000000;
-    padding-bottom: 4rem;
+    padding-bottom: 10rem;
     
 
 
@@ -1115,6 +1115,7 @@ position: relative;
         .timeline-left{
             display: flex;
             justify-content: flex-end;
+            text-align: end;
             align-items: flex-end;
             width: 50%;
             padding-right: 2rem;
@@ -1136,6 +1137,14 @@ position: relative;
             gap: 1rem;
             
         }
+
+
+        .timeline-right-list li{
+           font-size: 1.1rem;
+            
+        }
+
+
 
         .timeline-left-list{
             display: flex;
@@ -1163,6 +1172,13 @@ position: relative;
 
         }
         
+
+
+ .third-section{
+    height: 100vh;
+    background-color: #1a1a1a;
+ }
+
   
 
 
@@ -1576,10 +1592,7 @@ position: relative;
                     
                 }
         
-                /* .timeline-left-list li{ 
-                    text-align: end;
-                } */
-        
+    
         
                 
                 .timeline-left-heading{
@@ -1595,6 +1608,13 @@ position: relative;
                     width: 70%;
         
                 }
+
+                   
+        .timeline-right-list li{
+            font-size: 1.1rem;
+             
+         }
+ 
                 
           
         
