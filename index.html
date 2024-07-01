@@ -16,7 +16,7 @@
         <div class="bg-overlay">
             <!-- Navigation bar -->
 
-            <nav class="navbar-container">
+            <nav id="home" class="navbar-container">
 
                 <div class="logo">
                     My Goals
@@ -27,29 +27,26 @@
                     <ul data-test-id="nav-links" class="nav-links">
 
                         <li class="nav-link">
-                            <a href="/index.html">Home</a>
+                            <a href="#home">Home</a>
 
                         </li>
 
                         <li class="nav-link">
-                            <a href="/index.html">Skills</a>
+                            <a href="#skillDevelopment">Skills</a>
 
                         </li>
 
-                        <li class="nav-link">
-                            <a href="/index.html">Personal</a>
 
-                        </li>
 
                         <li class="nav-link">
-                            <a href="/index.html">Career</a>
+                            <a href="#careerGrowth">Career</a>
 
                         </li>
 
                     </ul>
 
                     <div class="nav-link">
-                        <a href="/index.html">
+                        <a href="#footer">
                             <div class="contact">Contact</div>
                         </a>
 
@@ -68,8 +65,8 @@
                     <div class="hero-section-top-left">
 
                         <div class="top-image-containerr">
-                            <img src="./Images/profilep.jpg" class="hero-section-top-imagee" data-testid="slackProfilePicture"
-                                alt="">
+                            <img src="./Images/profilep.jpg" class="hero-section-top-imagee"
+                                data-testid="slackProfilePicture" alt="">
 
                         </div>
 
@@ -80,7 +77,7 @@
                             <p class="hstt" data-testid="slackEmail">omoyenisamuel66@gmail.com</p>
                             <div class="time-container">
                                 <span data-testid="currentDay" id="currentDay" class="current-day"></span>
-                                <p id="currentTimeUTC"></p>
+                                <p id="currentTimeUTC" data-testid="currentTimeUTC"></p>
                             </div>
 
                         </div>
@@ -122,7 +119,8 @@
                 <div class="hero-section-head-container">
 
                     <h1 data-test-id="hero-section-heading" class="hero-section-heading">Ascending to Excellence: My
-                        <span class="llo"> Two-Year </span> Odyssey of <span class="llo"> Growth</span> </h1>
+                        <span class="llo"> Two-Year </span> Odyssey of <span class="llo"> Growth</span>
+                    </h1>
 
 
                     <p class="her-section-subheading">
@@ -183,7 +181,7 @@
 
     </section>
 
-    <section class="second-section">
+    <section id="skillDevelopment" class="second-section">
 
         <h1 class="career-growth-heading">
 
@@ -197,7 +195,7 @@
             <div class="timeline-left">
 
                 <h1 class="timeline-left-heading">
-                    Master TypeScript and Backend Dev
+                    Master TypeScript
                 </h1>
 
             </div>
@@ -219,13 +217,10 @@
                 <ul class="timeline-right-list">
 
                     <li>
-                        Take advanced JavaScript courses, work on JavaScript-intensive projects, and read "You Don’t
-                        Know JS" book series.
-                    </li>
+                        read book, buy courses and watch videos on Typescript and proper implementation of typescript
 
                     <li>
-                        Take advanced JavaScript courses, work on JavaScript-intensive projects, and read "You Don’t
-                        Know JS" book series.
+                        Build simple and complex projects with typescript to sharpen my skill
                     </li>
 
 
@@ -245,12 +240,12 @@
                 <ul class="timeline-right-list">
 
                     <li>
-                        Choose a framework, complete a comprehensive course, build
-                    </li>
+                        Learn three.js and master other frameworks for implementing 3D on websites and web apps
 
                     <li>
-                        Choose a framework, complete a comprehensive course, build
+                        Build simple and complex projects Using 3D and ensure proper optimization
                     </li>
+
 
                 </ul>
             </div>
@@ -281,7 +276,7 @@
             <div class="timeline-left">
 
                 <h1 class="timeline-left-heading">
-                    Enhance CSS Skills (Flexbox, Grid, and Animations):
+                    Learn Mobile dev (flutter)
 
                 </h1>
 
@@ -305,12 +300,12 @@
                 <ul class="timeline-right-list">
 
                     <li>
-                        Plan: Take online courses focusing on advanced CSS
+                        Focus on foundational courses and practice with small
+                        projects.
                     </li>
 
                     <li>
-                        Plan: Take online courses focusing on advanced CSS
-                    </li>
+                        build complex real-world applications, and publish at least one app.</li>
 
 
                 </ul>
@@ -326,11 +321,12 @@
                 <ul class="timeline-right-list">
 
                     <li>
-                        Complete a TypeScript course, refactor existing projects to use TypeScript, and
+                        Find open source projects that align with my interests and skill.
                     </li>
 
                     <li>
-                        Complete a TypeScript course, refactor existing projects to
+                        Begin with small contributions such as fixing bugs, improving
+                        documentation, or adding minor features.
                     </li>
 
                 </ul>
@@ -387,12 +383,12 @@
                 <ul class="timeline-right-list">
 
                     <li>
-                        Plan: Take a Node.js course, build a simple full-stack application, and
+                        Take a Node.js course, build a simple full-stack application, and
 
                     </li>
 
                     <li>
-                        Plan: Take a Node.js course, build a simple full-stack
+                        Take a Node.js course, build a simple full-stack
 
                     </li>
 
@@ -405,7 +401,7 @@
     </section>
 
 
-    <section class="third-section">
+    <section id="careerGrowth" class="third-section">
         <h1 class="career-growth" data-test-id="career-growth">
             Career Growth
         </h1>
@@ -428,12 +424,12 @@
             </div>
             <div data-test-id="career-growth-box" class="career-growth-box">
                 <h1 class="career-growth-header">
-                    Secure an Internship at a Tech Company:
+                    Secure a job at a Tech Company:
 
                 </h1>
 
                 <p class="career-growth-text">
-                    Build a strong portfolio, network with professionals on LinkedIn, apply to internship programs, and
+                    Build a strong portfolio, network with professionals on LinkedIn, apply for job offers, and
                     prepare thoroughly for technical interviews.
 
                 </p>
@@ -469,7 +465,7 @@
 
     </section>
 
-    <div class="footer-container" data-test-id="footer">
+    <div class="footer-container" id="footer" data-test-id="footer">
 
         <div class="footer">
 
@@ -513,7 +509,7 @@
             <div class="footer-third-container">
 
                 <h1 class="contact-informations">
-                     Useful Links
+                    Useful Links
                 </h1>
                 <p class="usefulLink">
                     <a data-testid="hngLink" href="http://hng.tech/learn">HNG Tech</a>
