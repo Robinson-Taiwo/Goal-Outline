@@ -70,7 +70,8 @@ a {
 }
 
 
-.navbar-links {    display: none;
+.navbar-links {
+    display: none;
     flex-direction: row;
     gap: 2rem;
     justify-content: center;
@@ -1316,7 +1317,7 @@ a {
 
     }
 
-  
+
 
 
     .timeline-left-heading {
