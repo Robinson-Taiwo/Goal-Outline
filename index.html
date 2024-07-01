@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <title>My Goals</title>
+
 </head>
 <body class="background" >
 
@@ -66,13 +67,25 @@
 
         <div class="hero-section-top-left">
 
-<img src="./Images/pp.jpg" class="hero-section-top-image" alt="">
+<div class="top-image-container">
+    <img src="./Images/pp.jpg" class="hero-section-top-image" data-test-id="slackProfilePicture" alt="">
+
+    
+</div>
 
 <p class="divider" ></p>
 
 <div class="hero-section-top-texts"> 
-<p class="slack-name" >Omoyeni Taiwo</p>
-<p  class="hstt" >@Taiwo</p>
+<p class="slack-name"  data-test-id="slackDisplayName" >@Oluwarotimi_</p>
+<p  class="hstt"  data-test-id="slackEmail" >omoyenisamuel66@gmail.com</p>
+<!-- <p  class="hstt"  data-test-id="slackEmail" >omoyenisamuel66@gmail.com</p> -->
+<div class="time-container">
+    <span data-test-id="currentDay" id="currentDay" class="current-day"></span>
+<p id="currentTimeUTC"  ></p>
+
+
+</div>
+
 
 </div>
 
@@ -122,11 +135,17 @@
 
     <p class="her-section-subheading">
 
-        Navigating the Tech Landscape: Mapping My Goals for Innovation and Advancement
+        Navigating the Tech Landscape: Mapping My Goals for Innovation and Advancement  
     </p>
+
+
+<!-- <h1>Today is: <span id="currentDay"></span></h1> -->
+
+<!-- <h1 id="Day"></h1> -->
 
 </div>
 
+    <!-- <h1 id="Day"></h1> -->
 
 
 
@@ -491,11 +510,164 @@
             
          <section class="third-section">
 
+
+            <h1 class="career-growth" data-test-id="career-growth" >
+Career Growth
+            </h1>
+
+
+            <div class="career-growth-container">
+
+
+                <div  data-test-id="career-growth-box"  class="career-growth-box">
+
+<h1 class="career-growth-header">
+    Get a Front-End Developer Certification:
+
+</h1>
+
+<p class="career-growth-text">
+    Enroll in a recognized certification program (like freeCodeCamp or Google’s certification), study diligently, and complete all required projects and exams.
+</p>
+
+
+
+
+                </div>
+                <div data-test-id="career-growth-box"  class="career-growth-box">
+                    <h1 class="career-growth-header">
+                        Secure an Internship at a Tech Company:
+
+
+                    
+                    </h1>
+                    
+                    <p class="career-growth-text">
+                         Build a strong portfolio, network with professionals on LinkedIn, apply to internship programs, and prepare thoroughly for technical interviews.
+
+                    </p>
+                    
+                    
+                    
+                </div>
+
+                <div data-test-id="career-growth-box"  class="career-growth-box">
+                    <h1 class="career-growth-header">
+                        Attend Tech Conferences and Meetups:
+
+                    
+                    </h1>
+                    
+                    <p class="career-growth-text">
+                         Research relevant events, register in advance, participate actively, and connect with other attendees.
+                    </p>
+                    
+                    
+                    
+                </div>
+
+                <div data-test-id="career-growth-box"  class="career-growth-box">
+                    <h1 class="career-growth-header">
+                        Build a Professional Online Presence:
+
+                    
+                    </h1>
+                    
+                    <p class="career-growth-text">
+                         Create and regularly update profiles on GitHub, LinkedIn, and a personal website or blog showcasing your work and contributions.
+                         <!-- <p id="currentTimeUTC"></p> -->
+
+                    </p>
+                    
+                   
+                </div>
+
+            </div>
+
+
             
          </section>
 
+         <div class="footer-container" data-test-id="footer" >
+             
+             <div class="footer">
+            
+            <div class="footer-first-container">
+            
+                <h1 class="get-in-touch">
+                    Get In Touch
+                </h1>
+            
+                <p class="getInTouch-subheading">
+                    Let's connect and collaborate in the digital realm. Whether you're interested in my projects, have opportunities to discuss, or just want to share ideas about the future of tech, I'm always eager to engage. Reach out through any of these platforms:
+                </p>
+            
+                <div class="footer-social-media-icons">
+            
+                    <img src="./icons/x.svg" alt="x-icon" class="footer-icons">
+                    
+                    
+                    <img src="./icons/slack.svg" alt="x-icon" class="footer-icons">
+                    
+                    <img src="./icons/linkedin.svg" alt="x-icon" class="footer-icons">
+                    <img src="./icons/Instagram.svg" alt="foter-x-icon" class="footer-icons">
+                    
+                    
+                    </div>
+            
+            
+            </div>
+            
+            
+            <div class="footer-second-container">
+                <h1 class="contact-informations">
+            Contact Information
+                </h1>
+                <p class="contact-information">
+                    omoyenisamuel66@gmail.com
+                </p>
+                <p class="contact-information">
+                    +234 8088 7047 31
+                </p>
+            </div>
+            
+            <div class="footer-third-container">
+            
+                <h1 class="contact-informations">
+                   Useful Links
+                        </h1>
+                      <p class="usefulLink">
+                        <a data-testid="hngLink" href="http://hng.tech/learn">HNG Tech</a>
+                      </p>
+                      <p class="usefulLink">
+                        <a data-testid="keywordLink" href="http://keyword.dog/">Key Word</a>
+                      </p>
+                      <p data-testid="scrapeanywebLink" class="usefulLink">
+                        <a href="http://scrapeanyweb.site/">Scrape Any Website</a>
+                      </p>
+            
+            </div>
+            
+            
+            
+            
+            
+                     </div>
+
+<div class="copyright">
+    © Omoyeni Taiwo. All rights reserved
+</div>
 
 
-    
+         </div>
+
+
+
+
+
+         <script src="Script.js"></script>
+
 </body>
+
+
 </html>
